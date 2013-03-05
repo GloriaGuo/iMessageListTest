@@ -13,12 +13,52 @@
 		789467B816E59D4E00E12E31 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789467B716E59D4E00E12E31 /* CoreData.framework */; };
 		789467BE16E59D4E00E12E31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 789467BC16E59D4E00E12E31 /* InfoPlist.strings */; };
 		789467C016E59D4E00E12E31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 789467BF16E59D4E00E12E31 /* main.m */; };
-		789467C416E59D4E00E12E31 /* iMessageListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 789467C316E59D4E00E12E31 /* iMessageListAppDelegate.m */; };
-		789467C616E59D4E00E12E31 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 789467C516E59D4E00E12E31 /* Default.png */; };
 		789467C816E59D4E00E12E31 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 789467C716E59D4E00E12E31 /* Default@2x.png */; };
 		789467CA16E59D4E00E12E31 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 789467C916E59D4E00E12E31 /* Default-568h@2x.png */; };
 		789467CD16E59D4E00E12E31 /* iMessageListTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 789467CB16E59D4E00E12E31 /* iMessageListTest.xcdatamodeld */; };
+		789467DC16E59E5D00E12E31 /* iMessageListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 789467DB16E59E5D00E12E31 /* iMessageListAppDelegate.m */; };
+		789467EA16E5A23D00E12E31 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 789467E916E5A23D00E12E31 /* Default.png */; };
+		7894680716E5A78900E12E31 /* BlocksKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7894680016E5A74800E12E31 /* BlocksKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7894680F16E5CCB700E12E31 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7894680E16E5CCB700E12E31 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		789467FD16E5A74800E12E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 789467F016E5A74700E12E31 /* BlocksKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6C3DBF8D1382F1BA00E6C9AA;
+			remoteInfo = "iOS Library";
+		};
+		789467FF16E5A74800E12E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 789467F016E5A74700E12E31 /* BlocksKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6CC40A751447BB1400E47595;
+			remoteInfo = "OS X Framework";
+		};
+		7894680116E5A74800E12E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 789467F016E5A74700E12E31 /* BlocksKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6CC08FCE1385555D00DDEABB;
+			remoteInfo = "OS X Library";
+		};
+		7894680316E5A74800E12E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 789467F016E5A74700E12E31 /* BlocksKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6CC0900913855CAE00DDEABB;
+			remoteInfo = "Chameleon Library";
+		};
+		7894680516E5A74800E12E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 789467F016E5A74700E12E31 /* BlocksKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 60FF000713C023CB004A1394;
+			remoteInfo = "iOS Tests";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		789467AD16E59D4E00E12E31 /* iMessageListTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMessageListTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,12 +70,18 @@
 		789467BD16E59D4E00E12E31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		789467BF16E59D4E00E12E31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		789467C116E59D4E00E12E31 /* iMessageListTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMessageListTest-Prefix.pch"; sourceTree = "<group>"; };
-		789467C216E59D4E00E12E31 /* iMessageListAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iMessageListAppDelegate.h; sourceTree = "<group>"; };
-		789467C316E59D4E00E12E31 /* iMessageListAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMessageListAppDelegate.m; sourceTree = "<group>"; };
-		789467C516E59D4E00E12E31 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		789467C716E59D4E00E12E31 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		789467C916E59D4E00E12E31 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		789467C716E59D4E00E12E31 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resource/Image/Default@2x.png"; sourceTree = "<group>"; };
+		789467C916E59D4E00E12E31 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resource/Image/Default-568h@2x.png"; sourceTree = "<group>"; };
 		789467CC16E59D4E00E12E31 /* iMessageListTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iMessageListTest.xcdatamodel; sourceTree = "<group>"; };
+		789467DA16E59E5D00E12E31 /* iMessageListAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMessageListAppDelegate.h; sourceTree = "<group>"; };
+		789467DB16E59E5D00E12E31 /* iMessageListAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMessageListAppDelegate.m; sourceTree = "<group>"; };
+		789467E316E59FD500E12E31 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		789467E416E59FD500E12E31 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		789467E516E59FD500E12E31 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		789467E916E5A23D00E12E31 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resource/Image/Default.png; sourceTree = "<group>"; };
+		789467F016E5A74700E12E31 /* BlocksKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BlocksKit.xcodeproj; path = BlocksKit/BlocksKit.xcodeproj; sourceTree = "<group>"; };
+		7894680816E5A7A500E12E31 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7894680E16E5CCB700E12E31 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7894680716E5A78900E12E31 /* BlocksKit.framework in Frameworks */,
 				789467B216E59D4E00E12E31 /* UIKit.framework in Frameworks */,
 				789467B416E59D4E00E12E31 /* Foundation.framework in Frameworks */,
 				789467B616E59D4E00E12E31 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +103,7 @@
 		789467A216E59D4E00E12E31 = {
 			isa = PBXGroup;
 			children = (
+				789467F016E5A74700E12E31 /* BlocksKit.xcodeproj */,
 				789467B916E59D4E00E12E31 /* iMessageListTest */,
 				789467B016E59D4E00E12E31 /* Frameworks */,
 				789467AE16E59D4E00E12E31 /* Products */,
@@ -73,6 +121,7 @@
 		789467B016E59D4E00E12E31 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7894680816E5A7A500E12E31 /* MessageUI.framework */,
 				789467B116E59D4E00E12E31 /* UIKit.framework */,
 				789467B316E59D4E00E12E31 /* Foundation.framework */,
 				789467B516E59D4E00E12E31 /* CoreGraphics.framework */,
@@ -84,8 +133,8 @@
 		789467B916E59D4E00E12E31 /* iMessageListTest */ = {
 			isa = PBXGroup;
 			children = (
-				789467C216E59D4E00E12E31 /* iMessageListAppDelegate.h */,
-				789467C316E59D4E00E12E31 /* iMessageListAppDelegate.m */,
+				789467E016E59FD500E12E31 /* Resource */,
+				789467D916E59E5D00E12E31 /* Class */,
 				789467CB16E59D4E00E12E31 /* iMessageListTest.xcdatamodeld */,
 				789467BA16E59D4E00E12E31 /* Supporting Files */,
 			);
@@ -99,11 +148,83 @@
 				789467BC16E59D4E00E12E31 /* InfoPlist.strings */,
 				789467BF16E59D4E00E12E31 /* main.m */,
 				789467C116E59D4E00E12E31 /* iMessageListTest-Prefix.pch */,
-				789467C516E59D4E00E12E31 /* Default.png */,
+				789467E916E5A23D00E12E31 /* Default.png */,
 				789467C716E59D4E00E12E31 /* Default@2x.png */,
 				789467C916E59D4E00E12E31 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		789467D916E59E5D00E12E31 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				789467DF16E59F6800E12E31 /* Entity */,
+				789467DE16E59F5400E12E31 /* Controller */,
+				789467DD16E59F4C00E12E31 /* Category */,
+				789467DA16E59E5D00E12E31 /* iMessageListAppDelegate.h */,
+				789467DB16E59E5D00E12E31 /* iMessageListAppDelegate.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		789467DD16E59F4C00E12E31 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		789467DE16E59F5400E12E31 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		789467DF16E59F6800E12E31 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		789467E016E59FD500E12E31 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				789467E116E59FD500E12E31 /* IBFile */,
+				789467E216E59FD500E12E31 /* Image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		789467E116E59FD500E12E31 /* IBFile */ = {
+			isa = PBXGroup;
+			children = (
+				7894680E16E5CCB700E12E31 /* MainWindow.xib */,
+			);
+			path = IBFile;
+			sourceTree = "<group>";
+		};
+		789467E216E59FD500E12E31 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				789467E316E59FD500E12E31 /* Default-568h@2x.png */,
+				789467E416E59FD500E12E31 /* Default.png */,
+				789467E516E59FD500E12E31 /* Default@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		789467F116E5A74700E12E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				789467FE16E5A74800E12E31 /* libBlocksKit.a */,
+				7894680016E5A74800E12E31 /* BlocksKit.framework */,
+				7894680216E5A74800E12E31 /* BlocksKit.dylib */,
+				7894680416E5A74800E12E31 /* BlocksKit_Chameleon.dylib */,
+				7894680616E5A74800E12E31 /* iOS Tests.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +267,12 @@
 			mainGroup = 789467A216E59D4E00E12E31;
 			productRefGroup = 789467AE16E59D4E00E12E31 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 789467F116E5A74700E12E31 /* Products */;
+					ProjectRef = 789467F016E5A74700E12E31 /* BlocksKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				789467AC16E59D4E00E12E31 /* iMessageListTest */,
@@ -153,15 +280,54 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		789467FE16E5A74800E12E31 /* libBlocksKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBlocksKit.a;
+			remoteRef = 789467FD16E5A74800E12E31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7894680016E5A74800E12E31 /* BlocksKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BlocksKit.framework;
+			remoteRef = 789467FF16E5A74800E12E31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7894680216E5A74800E12E31 /* BlocksKit.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = BlocksKit.dylib;
+			remoteRef = 7894680116E5A74800E12E31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7894680416E5A74800E12E31 /* BlocksKit_Chameleon.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = BlocksKit_Chameleon.dylib;
+			remoteRef = 7894680316E5A74800E12E31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7894680616E5A74800E12E31 /* iOS Tests.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "iOS Tests.app";
+			remoteRef = 7894680516E5A74800E12E31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		789467AB16E59D4E00E12E31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				789467BE16E59D4E00E12E31 /* InfoPlist.strings in Resources */,
-				789467C616E59D4E00E12E31 /* Default.png in Resources */,
 				789467C816E59D4E00E12E31 /* Default@2x.png in Resources */,
 				789467CA16E59D4E00E12E31 /* Default-568h@2x.png in Resources */,
+				789467EA16E5A23D00E12E31 /* Default.png in Resources */,
+				7894680F16E5CCB700E12E31 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +339,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				789467C016E59D4E00E12E31 /* main.m in Sources */,
-				789467C416E59D4E00E12E31 /* iMessageListAppDelegate.m in Sources */,
 				789467CD16E59D4E00E12E31 /* iMessageListTest.xcdatamodeld in Sources */,
+				789467DC16E59E5D00E12E31 /* iMessageListAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +414,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iMessageListTest/iMessageListTest-Prefix.pch";
 				INFOPLIST_FILE = "iMessageListTest/iMessageListTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -259,6 +429,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iMessageListTest/iMessageListTest-Prefix.pch";
 				INFOPLIST_FILE = "iMessageListTest/iMessageListTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -283,6 +457,7 @@
 				789467D216E59D4E00E12E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
