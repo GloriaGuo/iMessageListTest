@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		789467B216E59D4E00E12E31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789467B116E59D4E00E12E31 /* UIKit.framework */; };
+		789467B416E59D4E00E12E31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789467B316E59D4E00E12E31 /* Foundation.framework */; };
+		789467B616E59D4E00E12E31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789467B516E59D4E00E12E31 /* CoreGraphics.framework */; };
+		789467B816E59D4E00E12E31 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789467B716E59D4E00E12E31 /* CoreData.framework */; };
+		789467BE16E59D4E00E12E31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 789467BC16E59D4E00E12E31 /* InfoPlist.strings */; };
+		789467C016E59D4E00E12E31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 789467BF16E59D4E00E12E31 /* main.m */; };
+		789467C416E59D4E00E12E31 /* iMessageListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 789467C316E59D4E00E12E31 /* iMessageListAppDelegate.m */; };
+		789467C616E59D4E00E12E31 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 789467C516E59D4E00E12E31 /* Default.png */; };
+		789467C816E59D4E00E12E31 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 789467C716E59D4E00E12E31 /* Default@2x.png */; };
+		789467CA16E59D4E00E12E31 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 789467C916E59D4E00E12E31 /* Default-568h@2x.png */; };
+		789467CD16E59D4E00E12E31 /* iMessageListTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 789467CB16E59D4E00E12E31 /* iMessageListTest.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		789467AD16E59D4E00E12E31 /* iMessageListTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMessageListTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		789467B116E59D4E00E12E31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		789467B316E59D4E00E12E31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		789467B516E59D4E00E12E31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		789467B716E59D4E00E12E31 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		789467BB16E59D4E00E12E31 /* iMessageListTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMessageListTest-Info.plist"; sourceTree = "<group>"; };
+		789467BD16E59D4E00E12E31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		789467BF16E59D4E00E12E31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		789467C116E59D4E00E12E31 /* iMessageListTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMessageListTest-Prefix.pch"; sourceTree = "<group>"; };
+		789467C216E59D4E00E12E31 /* iMessageListAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iMessageListAppDelegate.h; sourceTree = "<group>"; };
+		789467C316E59D4E00E12E31 /* iMessageListAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMessageListAppDelegate.m; sourceTree = "<group>"; };
+		789467C516E59D4E00E12E31 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		789467C716E59D4E00E12E31 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		789467C916E59D4E00E12E31 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		789467CC16E59D4E00E12E31 /* iMessageListTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iMessageListTest.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		789467AA16E59D4E00E12E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789467B216E59D4E00E12E31 /* UIKit.framework in Frameworks */,
+				789467B416E59D4E00E12E31 /* Foundation.framework in Frameworks */,
+				789467B616E59D4E00E12E31 /* CoreGraphics.framework in Frameworks */,
+				789467B816E59D4E00E12E31 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		789467A216E59D4E00E12E31 = {
+			isa = PBXGroup;
+			children = (
+				789467B916E59D4E00E12E31 /* iMessageListTest */,
+				789467B016E59D4E00E12E31 /* Frameworks */,
+				789467AE16E59D4E00E12E31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		789467AE16E59D4E00E12E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				789467AD16E59D4E00E12E31 /* iMessageListTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		789467B016E59D4E00E12E31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				789467B116E59D4E00E12E31 /* UIKit.framework */,
+				789467B316E59D4E00E12E31 /* Foundation.framework */,
+				789467B516E59D4E00E12E31 /* CoreGraphics.framework */,
+				789467B716E59D4E00E12E31 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		789467B916E59D4E00E12E31 /* iMessageListTest */ = {
+			isa = PBXGroup;
+			children = (
+				789467C216E59D4E00E12E31 /* iMessageListAppDelegate.h */,
+				789467C316E59D4E00E12E31 /* iMessageListAppDelegate.m */,
+				789467CB16E59D4E00E12E31 /* iMessageListTest.xcdatamodeld */,
+				789467BA16E59D4E00E12E31 /* Supporting Files */,
+			);
+			path = iMessageListTest;
+			sourceTree = "<group>";
+		};
+		789467BA16E59D4E00E12E31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				789467BB16E59D4E00E12E31 /* iMessageListTest-Info.plist */,
+				789467BC16E59D4E00E12E31 /* InfoPlist.strings */,
+				789467BF16E59D4E00E12E31 /* main.m */,
+				789467C116E59D4E00E12E31 /* iMessageListTest-Prefix.pch */,
+				789467C516E59D4E00E12E31 /* Default.png */,
+				789467C716E59D4E00E12E31 /* Default@2x.png */,
+				789467C916E59D4E00E12E31 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		789467AC16E59D4E00E12E31 /* iMessageListTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789467D016E59D4E00E12E31 /* Build configuration list for PBXNativeTarget "iMessageListTest" */;
+			buildPhases = (
+				789467A916E59D4E00E12E31 /* Sources */,
+				789467AA16E59D4E00E12E31 /* Frameworks */,
+				789467AB16E59D4E00E12E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMessageListTest;
+			productName = iMessageListTest;
+			productReference = 789467AD16E59D4E00E12E31 /* iMessageListTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		789467A416E59D4E00E12E31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iMessageList;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Gloria Guo";
+			};
+			buildConfigurationList = 789467A716E59D4E00E12E31 /* Build configuration list for PBXProject "iMessageListTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 789467A216E59D4E00E12E31;
+			productRefGroup = 789467AE16E59D4E00E12E31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				789467AC16E59D4E00E12E31 /* iMessageListTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		789467AB16E59D4E00E12E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789467BE16E59D4E00E12E31 /* InfoPlist.strings in Resources */,
+				789467C616E59D4E00E12E31 /* Default.png in Resources */,
+				789467C816E59D4E00E12E31 /* Default@2x.png in Resources */,
+				789467CA16E59D4E00E12E31 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		789467A916E59D4E00E12E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789467C016E59D4E00E12E31 /* main.m in Sources */,
+				789467C416E59D4E00E12E31 /* iMessageListAppDelegate.m in Sources */,
+				789467CD16E59D4E00E12E31 /* iMessageListTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		789467BC16E59D4E00E12E31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				789467BD16E59D4E00E12E31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		789467CE16E59D4E00E12E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		789467CF16E59D4E00E12E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		789467D116E59D4E00E12E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMessageListTest/iMessageListTest-Prefix.pch";
+				INFOPLIST_FILE = "iMessageListTest/iMessageListTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		789467D216E59D4E00E12E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMessageListTest/iMessageListTest-Prefix.pch";
+				INFOPLIST_FILE = "iMessageListTest/iMessageListTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		789467A716E59D4E00E12E31 /* Build configuration list for PBXProject "iMessageListTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789467CE16E59D4E00E12E31 /* Debug */,
+				789467CF16E59D4E00E12E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789467D016E59D4E00E12E31 /* Build configuration list for PBXNativeTarget "iMessageListTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789467D116E59D4E00E12E31 /* Debug */,
+				789467D216E59D4E00E12E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		789467CB16E59D4E00E12E31 /* iMessageListTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				789467CC16E59D4E00E12E31 /* iMessageListTest.xcdatamodel */,
+			);
+			currentVersion = 789467CC16E59D4E00E12E31 /* iMessageListTest.xcdatamodel */;
+			path = iMessageListTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 789467A416E59D4E00E12E31 /* Project object */;
+}
