@@ -13,52 +13,27 @@
 		789467B816E59D4E00E12E31 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789467B716E59D4E00E12E31 /* CoreData.framework */; };
 		789467BE16E59D4E00E12E31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 789467BC16E59D4E00E12E31 /* InfoPlist.strings */; };
 		789467C016E59D4E00E12E31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 789467BF16E59D4E00E12E31 /* main.m */; };
-		789467C816E59D4E00E12E31 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 789467C716E59D4E00E12E31 /* Default@2x.png */; };
-		789467CA16E59D4E00E12E31 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 789467C916E59D4E00E12E31 /* Default-568h@2x.png */; };
 		789467CD16E59D4E00E12E31 /* iMessageListTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 789467CB16E59D4E00E12E31 /* iMessageListTest.xcdatamodeld */; };
 		789467DC16E59E5D00E12E31 /* iMessageListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 789467DB16E59E5D00E12E31 /* iMessageListAppDelegate.m */; };
-		789467EA16E5A23D00E12E31 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 789467E916E5A23D00E12E31 /* Default.png */; };
-		7894680716E5A78900E12E31 /* BlocksKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7894680016E5A74800E12E31 /* BlocksKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		7894680F16E5CCB700E12E31 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7894680E16E5CCB700E12E31 /* MainWindow.xib */; };
+		8EB32F9016E8DD6F0063AC92 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EB32F8F16E8DD6F0063AC92 /* MainWindow.xib */; };
+		8EB32FDD16E8F2D10063AC92 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7894680816E5A7A500E12E31 /* MessageUI.framework */; };
+		8EB3304316E8F38B0063AC92 /* libBlocksKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB3304216E8F38B0063AC92 /* libBlocksKit.a */; };
+		8EB3308216E8F85F0063AC92 /* NSAttributeDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3306716E8F85F0063AC92 /* NSAttributeDescription+MagicalDataImport.m */; };
+		8EB3308316E8F85F0063AC92 /* NSDictionary+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3306916E8F85F0063AC92 /* NSDictionary+MagicalDataImport.m */; };
+		8EB3308416E8F85F0063AC92 /* NSEntityDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3306B16E8F85F0063AC92 /* NSEntityDescription+MagicalDataImport.m */; };
+		8EB3308516E8F85F0063AC92 /* NSNumber+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3306D16E8F85F0063AC92 /* NSNumber+MagicalDataImport.m */; };
+		8EB3308616E8F85F0063AC92 /* NSRelationshipDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3306F16E8F85F0063AC92 /* NSRelationshipDescription+MagicalDataImport.m */; };
+		8EB3308716E8F85F0063AC92 /* NSManagedObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3307116E8F85F0063AC92 /* NSManagedObject+MagicalDataImport.m */; };
+		8EB3308816E8F85F0063AC92 /* NSManagedObject+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3307316E8F85F0063AC92 /* NSManagedObject+MagicalRecord.m */; };
+		8EB3308916E8F85F0063AC92 /* NSManagedObjectContext+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3307516E8F85F0063AC92 /* NSManagedObjectContext+MagicalRecord.m */; };
+		8EB3308A16E8F85F0063AC92 /* NSManagedObjectModel+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3307716E8F85F0063AC92 /* NSManagedObjectModel+MagicalRecord.m */; };
+		8EB3308B16E8F85F0063AC92 /* NSPersistentStore+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3307916E8F85F0063AC92 /* NSPersistentStore+MagicalRecord.m */; };
+		8EB3308C16E8F85F0063AC92 /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3307B16E8F85F0063AC92 /* NSPersistentStoreCoordinator+MagicalRecord.m */; };
+		8EB3308D16E8F85F0063AC92 /* MagicalRecordHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3307E16E8F85F0063AC92 /* MagicalRecordHelpers.m */; };
+		8EB3308E16E8F85F0063AC92 /* MRCoreDataAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3308116E8F85F0063AC92 /* MRCoreDataAction.m */; };
+		8EB3309316E8F91D0063AC92 /* iMessageList-Default.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EB3309216E8F91D0063AC92 /* iMessageList-Default.plist */; };
+		8EB330B616E8FC7A0063AC92 /* iMessageListConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB330B516E8FC7A0063AC92 /* iMessageListConfiguration.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		789467FD16E5A74800E12E31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 789467F016E5A74700E12E31 /* BlocksKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6C3DBF8D1382F1BA00E6C9AA;
-			remoteInfo = "iOS Library";
-		};
-		789467FF16E5A74800E12E31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 789467F016E5A74700E12E31 /* BlocksKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6CC40A751447BB1400E47595;
-			remoteInfo = "OS X Framework";
-		};
-		7894680116E5A74800E12E31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 789467F016E5A74700E12E31 /* BlocksKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6CC08FCE1385555D00DDEABB;
-			remoteInfo = "OS X Library";
-		};
-		7894680316E5A74800E12E31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 789467F016E5A74700E12E31 /* BlocksKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6CC0900913855CAE00DDEABB;
-			remoteInfo = "Chameleon Library";
-		};
-		7894680516E5A74800E12E31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 789467F016E5A74700E12E31 /* BlocksKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 60FF000713C023CB004A1394;
-			remoteInfo = "iOS Tests";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		789467AD16E59D4E00E12E31 /* iMessageListTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMessageListTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,18 +45,90 @@
 		789467BD16E59D4E00E12E31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		789467BF16E59D4E00E12E31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		789467C116E59D4E00E12E31 /* iMessageListTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMessageListTest-Prefix.pch"; sourceTree = "<group>"; };
-		789467C716E59D4E00E12E31 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resource/Image/Default@2x.png"; sourceTree = "<group>"; };
-		789467C916E59D4E00E12E31 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resource/Image/Default-568h@2x.png"; sourceTree = "<group>"; };
 		789467CC16E59D4E00E12E31 /* iMessageListTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iMessageListTest.xcdatamodel; sourceTree = "<group>"; };
 		789467DA16E59E5D00E12E31 /* iMessageListAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMessageListAppDelegate.h; sourceTree = "<group>"; };
 		789467DB16E59E5D00E12E31 /* iMessageListAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMessageListAppDelegate.m; sourceTree = "<group>"; };
 		789467E316E59FD500E12E31 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		789467E416E59FD500E12E31 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		789467E516E59FD500E12E31 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		789467E916E5A23D00E12E31 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resource/Image/Default.png; sourceTree = "<group>"; };
-		789467F016E5A74700E12E31 /* BlocksKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BlocksKit.xcodeproj; path = BlocksKit/BlocksKit.xcodeproj; sourceTree = "<group>"; };
 		7894680816E5A7A500E12E31 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		7894680E16E5CCB700E12E31 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		8EB32F8F16E8DD6F0063AC92 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		8EB3301616E8F38B0063AC92 /* A2BlockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A2BlockDelegate.h; sourceTree = "<group>"; };
+		8EB3301716E8F38B0063AC92 /* A2BlockInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A2BlockInvocation.h; sourceTree = "<group>"; };
+		8EB3301816E8F38B0063AC92 /* A2DynamicDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A2DynamicDelegate.h; sourceTree = "<group>"; };
+		8EB3301916E8F38B0063AC92 /* BKGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKGlobals.h; sourceTree = "<group>"; };
+		8EB3301A16E8F38B0063AC92 /* BKMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKMacros.h; sourceTree = "<group>"; };
+		8EB3301B16E8F38B0063AC92 /* BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlocksKit.h; sourceTree = "<group>"; };
+		8EB3301C16E8F38B0063AC92 /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
+		8EB3301D16E8F38B0063AC92 /* ffi_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_armv7.h; sourceTree = "<group>"; };
+		8EB3301E16E8F38B0063AC92 /* ffi_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_common.h; sourceTree = "<group>"; };
+		8EB3301F16E8F38B0063AC92 /* ffi_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_i386.h; sourceTree = "<group>"; };
+		8EB3302016E8F38B0063AC92 /* fficonfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig.h; sourceTree = "<group>"; };
+		8EB3302116E8F38B0063AC92 /* fficonfig_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_armv7.h; sourceTree = "<group>"; };
+		8EB3302216E8F38B0063AC92 /* fficonfig_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_i386.h; sourceTree = "<group>"; };
+		8EB3302316E8F38B0063AC92 /* ffitarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
+		8EB3302416E8F38B0063AC92 /* ffitarget_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_armv7.h; sourceTree = "<group>"; };
+		8EB3302516E8F38B0063AC92 /* ffitarget_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
+		8EB3302616E8F38B0063AC92 /* MFMailComposeViewController+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MFMailComposeViewController+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3302716E8F38B0063AC92 /* MFMessageComposeViewController+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MFMessageComposeViewController+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3302816E8F38B0063AC92 /* NSArray+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3302916E8F38B0063AC92 /* NSCache+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCache+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3302A16E8F38B0063AC92 /* NSDictionary+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3302B16E8F38B0063AC92 /* NSIndexSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3302C16E8F38B0063AC92 /* NSInvocation+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3302D16E8F38B0063AC92 /* NSMutableArray+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3302E16E8F38B0063AC92 /* NSMutableDictionary+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3302F16E8F38B0063AC92 /* NSMutableIndexSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3303016E8F38B0063AC92 /* NSMutableOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3303116E8F38B0063AC92 /* NSMutableSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3303216E8F38B0063AC92 /* NSObject+A2DynamicDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+A2DynamicDelegate.h"; sourceTree = "<group>"; };
+		8EB3303316E8F38B0063AC92 /* NSObject+AssociatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedObjects.h"; sourceTree = "<group>"; };
+		8EB3303416E8F38B0063AC92 /* NSObject+BlockObservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BlockObservation.h"; sourceTree = "<group>"; };
+		8EB3303516E8F38B0063AC92 /* NSObject+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3303616E8F38B0063AC92 /* NSOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3303716E8F38B0063AC92 /* NSSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3303816E8F38B0063AC92 /* NSTimer+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3303916E8F38B0063AC92 /* NSURLConnection+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3303A16E8F38B0063AC92 /* UIActionSheet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3303B16E8F38B0063AC92 /* UIAlertView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3303C16E8F38B0063AC92 /* UIBarButtonItem+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3303D16E8F38B0063AC92 /* UIControl+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3303E16E8F38B0063AC92 /* UIGestureRecognizer+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3303F16E8F38B0063AC92 /* UIPopoverController+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3304016E8F38B0063AC92 /* UIView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3304116E8F38B0063AC92 /* UIWebView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+BlocksKit.h"; sourceTree = "<group>"; };
+		8EB3304216E8F38B0063AC92 /* libBlocksKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBlocksKit.a; sourceTree = "<group>"; };
+		8EB3306616E8F85F0063AC92 /* NSAttributeDescription+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributeDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		8EB3306716E8F85F0063AC92 /* NSAttributeDescription+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributeDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		8EB3306816E8F85F0063AC92 /* NSDictionary+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MagicalDataImport.h"; sourceTree = "<group>"; };
+		8EB3306916E8F85F0063AC92 /* NSDictionary+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MagicalDataImport.m"; sourceTree = "<group>"; };
+		8EB3306A16E8F85F0063AC92 /* NSEntityDescription+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSEntityDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		8EB3306B16E8F85F0063AC92 /* NSEntityDescription+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSEntityDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		8EB3306C16E8F85F0063AC92 /* NSNumber+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MagicalDataImport.h"; sourceTree = "<group>"; };
+		8EB3306D16E8F85F0063AC92 /* NSNumber+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+MagicalDataImport.m"; sourceTree = "<group>"; };
+		8EB3306E16E8F85F0063AC92 /* NSRelationshipDescription+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRelationshipDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		8EB3306F16E8F85F0063AC92 /* NSRelationshipDescription+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRelationshipDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		8EB3307016E8F85F0063AC92 /* NSManagedObject+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalDataImport.h"; sourceTree = "<group>"; };
+		8EB3307116E8F85F0063AC92 /* NSManagedObject+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+MagicalDataImport.m"; sourceTree = "<group>"; };
+		8EB3307216E8F85F0063AC92 /* NSManagedObject+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalRecord.h"; sourceTree = "<group>"; };
+		8EB3307316E8F85F0063AC92 /* NSManagedObject+MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+MagicalRecord.m"; sourceTree = "<group>"; };
+		8EB3307416E8F85F0063AC92 /* NSManagedObjectContext+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalRecord.h"; sourceTree = "<group>"; };
+		8EB3307516E8F85F0063AC92 /* NSManagedObjectContext+MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+MagicalRecord.m"; sourceTree = "<group>"; };
+		8EB3307616E8F85F0063AC92 /* NSManagedObjectModel+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectModel+MagicalRecord.h"; sourceTree = "<group>"; };
+		8EB3307716E8F85F0063AC92 /* NSManagedObjectModel+MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectModel+MagicalRecord.m"; sourceTree = "<group>"; };
+		8EB3307816E8F85F0063AC92 /* NSPersistentStore+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStore+MagicalRecord.h"; sourceTree = "<group>"; };
+		8EB3307916E8F85F0063AC92 /* NSPersistentStore+MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStore+MagicalRecord.m"; sourceTree = "<group>"; };
+		8EB3307A16E8F85F0063AC92 /* NSPersistentStoreCoordinator+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStoreCoordinator+MagicalRecord.h"; sourceTree = "<group>"; };
+		8EB3307B16E8F85F0063AC92 /* NSPersistentStoreCoordinator+MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStoreCoordinator+MagicalRecord.m"; sourceTree = "<group>"; };
+		8EB3307C16E8F85F0063AC92 /* CoreData+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreData+MagicalRecord.h"; sourceTree = "<group>"; };
+		8EB3307D16E8F85F0063AC92 /* MagicalRecordHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordHelpers.h; sourceTree = "<group>"; };
+		8EB3307E16E8F85F0063AC92 /* MagicalRecordHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalRecordHelpers.m; sourceTree = "<group>"; };
+		8EB3307F16E8F85F0063AC92 /* MagicalRecordShorthand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordShorthand.h; sourceTree = "<group>"; };
+		8EB3308016E8F85F0063AC92 /* MRCoreDataAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCoreDataAction.h; sourceTree = "<group>"; };
+		8EB3308116E8F85F0063AC92 /* MRCoreDataAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCoreDataAction.m; sourceTree = "<group>"; };
+		8EB3309216E8F91D0063AC92 /* iMessageList-Default.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iMessageList-Default.plist"; sourceTree = "<group>"; };
+		8EB330B316E8FC0C0063AC92 /* iMessageListConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMessageListConfiguration.h; sourceTree = "<group>"; };
+		8EB330B516E8FC7A0063AC92 /* iMessageListConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMessageListConfiguration.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,11 +136,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7894680716E5A78900E12E31 /* BlocksKit.framework in Frameworks */,
+				8EB32FDD16E8F2D10063AC92 /* MessageUI.framework in Frameworks */,
 				789467B216E59D4E00E12E31 /* UIKit.framework in Frameworks */,
 				789467B416E59D4E00E12E31 /* Foundation.framework in Frameworks */,
 				789467B616E59D4E00E12E31 /* CoreGraphics.framework in Frameworks */,
 				789467B816E59D4E00E12E31 /* CoreData.framework in Frameworks */,
+				8EB3304316E8F38B0063AC92 /* libBlocksKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +151,6 @@
 		789467A216E59D4E00E12E31 = {
 			isa = PBXGroup;
 			children = (
-				789467F016E5A74700E12E31 /* BlocksKit.xcodeproj */,
 				789467B916E59D4E00E12E31 /* iMessageListTest */,
 				789467B016E59D4E00E12E31 /* Frameworks */,
 				789467AE16E59D4E00E12E31 /* Products */,
@@ -133,6 +180,7 @@
 		789467B916E59D4E00E12E31 /* iMessageListTest */ = {
 			isa = PBXGroup;
 			children = (
+				8EB32F8E16E8DD6F0063AC92 /* IBFile */,
 				789467E016E59FD500E12E31 /* Resource */,
 				789467D916E59E5D00E12E31 /* Class */,
 				789467CB16E59D4E00E12E31 /* iMessageListTest.xcdatamodeld */,
@@ -148,9 +196,7 @@
 				789467BC16E59D4E00E12E31 /* InfoPlist.strings */,
 				789467BF16E59D4E00E12E31 /* main.m */,
 				789467C116E59D4E00E12E31 /* iMessageListTest-Prefix.pch */,
-				789467E916E5A23D00E12E31 /* Default.png */,
-				789467C716E59D4E00E12E31 /* Default@2x.png */,
-				789467C916E59D4E00E12E31 /* Default-568h@2x.png */,
+				8EB3309216E8F91D0063AC92 /* iMessageList-Default.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,51 +204,23 @@
 		789467D916E59E5D00E12E31 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				789467DF16E59F6800E12E31 /* Entity */,
-				789467DE16E59F5400E12E31 /* Controller */,
-				789467DD16E59F4C00E12E31 /* Category */,
+				8EB3301216E8F38B0063AC92 /* External */,
+				8EB32FDF16E8F3390063AC92 /* Controller */,
+				8EB32FDE16E8F3280063AC92 /* Entity */,
 				789467DA16E59E5D00E12E31 /* iMessageListAppDelegate.h */,
 				789467DB16E59E5D00E12E31 /* iMessageListAppDelegate.m */,
+				8EB330B316E8FC0C0063AC92 /* iMessageListConfiguration.h */,
+				8EB330B516E8FC7A0063AC92 /* iMessageListConfiguration.m */,
 			);
 			path = Class;
-			sourceTree = "<group>";
-		};
-		789467DD16E59F4C00E12E31 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		789467DE16E59F5400E12E31 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		789467DF16E59F6800E12E31 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entity;
 			sourceTree = "<group>";
 		};
 		789467E016E59FD500E12E31 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				789467E116E59FD500E12E31 /* IBFile */,
 				789467E216E59FD500E12E31 /* Image */,
 			);
 			path = Resource;
-			sourceTree = "<group>";
-		};
-		789467E116E59FD500E12E31 /* IBFile */ = {
-			isa = PBXGroup;
-			children = (
-				7894680E16E5CCB700E12E31 /* MainWindow.xib */,
-			);
-			path = IBFile;
 			sourceTree = "<group>";
 		};
 		789467E216E59FD500E12E31 /* Image */ = {
@@ -215,16 +233,155 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
-		789467F116E5A74700E12E31 /* Products */ = {
+		8EB32F8E16E8DD6F0063AC92 /* IBFile */ = {
 			isa = PBXGroup;
 			children = (
-				789467FE16E5A74800E12E31 /* libBlocksKit.a */,
-				7894680016E5A74800E12E31 /* BlocksKit.framework */,
-				7894680216E5A74800E12E31 /* BlocksKit.dylib */,
-				7894680416E5A74800E12E31 /* BlocksKit_Chameleon.dylib */,
-				7894680616E5A74800E12E31 /* iOS Tests.app */,
+				8EB32F8F16E8DD6F0063AC92 /* MainWindow.xib */,
 			);
-			name = Products;
+			name = IBFile;
+			path = Resource/IBFile;
+			sourceTree = "<group>";
+		};
+		8EB32FDE16E8F3280063AC92 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		8EB32FDF16E8F3390063AC92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8EB3301216E8F38B0063AC92 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				8EB3306316E8F85F0063AC92 /* MagicalRecord */,
+				8EB3301316E8F38B0063AC92 /* BlocksKit */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		8EB3301316E8F38B0063AC92 /* BlocksKit */ = {
+			isa = PBXGroup;
+			children = (
+				8EB3301416E8F38B0063AC92 /* Headers */,
+				8EB3304216E8F38B0063AC92 /* libBlocksKit.a */,
+			);
+			path = BlocksKit;
+			sourceTree = "<group>";
+		};
+		8EB3301416E8F38B0063AC92 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				8EB3301516E8F38B0063AC92 /* BlocksKit */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		8EB3301516E8F38B0063AC92 /* BlocksKit */ = {
+			isa = PBXGroup;
+			children = (
+				8EB3301616E8F38B0063AC92 /* A2BlockDelegate.h */,
+				8EB3301716E8F38B0063AC92 /* A2BlockInvocation.h */,
+				8EB3301816E8F38B0063AC92 /* A2DynamicDelegate.h */,
+				8EB3301916E8F38B0063AC92 /* BKGlobals.h */,
+				8EB3301A16E8F38B0063AC92 /* BKMacros.h */,
+				8EB3301B16E8F38B0063AC92 /* BlocksKit.h */,
+				8EB3301C16E8F38B0063AC92 /* ffi.h */,
+				8EB3301D16E8F38B0063AC92 /* ffi_armv7.h */,
+				8EB3301E16E8F38B0063AC92 /* ffi_common.h */,
+				8EB3301F16E8F38B0063AC92 /* ffi_i386.h */,
+				8EB3302016E8F38B0063AC92 /* fficonfig.h */,
+				8EB3302116E8F38B0063AC92 /* fficonfig_armv7.h */,
+				8EB3302216E8F38B0063AC92 /* fficonfig_i386.h */,
+				8EB3302316E8F38B0063AC92 /* ffitarget.h */,
+				8EB3302416E8F38B0063AC92 /* ffitarget_armv7.h */,
+				8EB3302516E8F38B0063AC92 /* ffitarget_i386.h */,
+				8EB3302616E8F38B0063AC92 /* MFMailComposeViewController+BlocksKit.h */,
+				8EB3302716E8F38B0063AC92 /* MFMessageComposeViewController+BlocksKit.h */,
+				8EB3302816E8F38B0063AC92 /* NSArray+BlocksKit.h */,
+				8EB3302916E8F38B0063AC92 /* NSCache+BlocksKit.h */,
+				8EB3302A16E8F38B0063AC92 /* NSDictionary+BlocksKit.h */,
+				8EB3302B16E8F38B0063AC92 /* NSIndexSet+BlocksKit.h */,
+				8EB3302C16E8F38B0063AC92 /* NSInvocation+BlocksKit.h */,
+				8EB3302D16E8F38B0063AC92 /* NSMutableArray+BlocksKit.h */,
+				8EB3302E16E8F38B0063AC92 /* NSMutableDictionary+BlocksKit.h */,
+				8EB3302F16E8F38B0063AC92 /* NSMutableIndexSet+BlocksKit.h */,
+				8EB3303016E8F38B0063AC92 /* NSMutableOrderedSet+BlocksKit.h */,
+				8EB3303116E8F38B0063AC92 /* NSMutableSet+BlocksKit.h */,
+				8EB3303216E8F38B0063AC92 /* NSObject+A2DynamicDelegate.h */,
+				8EB3303316E8F38B0063AC92 /* NSObject+AssociatedObjects.h */,
+				8EB3303416E8F38B0063AC92 /* NSObject+BlockObservation.h */,
+				8EB3303516E8F38B0063AC92 /* NSObject+BlocksKit.h */,
+				8EB3303616E8F38B0063AC92 /* NSOrderedSet+BlocksKit.h */,
+				8EB3303716E8F38B0063AC92 /* NSSet+BlocksKit.h */,
+				8EB3303816E8F38B0063AC92 /* NSTimer+BlocksKit.h */,
+				8EB3303916E8F38B0063AC92 /* NSURLConnection+BlocksKit.h */,
+				8EB3303A16E8F38B0063AC92 /* UIActionSheet+BlocksKit.h */,
+				8EB3303B16E8F38B0063AC92 /* UIAlertView+BlocksKit.h */,
+				8EB3303C16E8F38B0063AC92 /* UIBarButtonItem+BlocksKit.h */,
+				8EB3303D16E8F38B0063AC92 /* UIControl+BlocksKit.h */,
+				8EB3303E16E8F38B0063AC92 /* UIGestureRecognizer+BlocksKit.h */,
+				8EB3303F16E8F38B0063AC92 /* UIPopoverController+BlocksKit.h */,
+				8EB3304016E8F38B0063AC92 /* UIView+BlocksKit.h */,
+				8EB3304116E8F38B0063AC92 /* UIWebView+BlocksKit.h */,
+			);
+			path = BlocksKit;
+			sourceTree = "<group>";
+		};
+		8EB3306316E8F85F0063AC92 /* MagicalRecord */ = {
+			isa = PBXGroup;
+			children = (
+				8EB3306416E8F85F0063AC92 /* Categories */,
+				8EB3307C16E8F85F0063AC92 /* CoreData+MagicalRecord.h */,
+				8EB3307D16E8F85F0063AC92 /* MagicalRecordHelpers.h */,
+				8EB3307E16E8F85F0063AC92 /* MagicalRecordHelpers.m */,
+				8EB3307F16E8F85F0063AC92 /* MagicalRecordShorthand.h */,
+				8EB3308016E8F85F0063AC92 /* MRCoreDataAction.h */,
+				8EB3308116E8F85F0063AC92 /* MRCoreDataAction.m */,
+			);
+			path = MagicalRecord;
+			sourceTree = "<group>";
+		};
+		8EB3306416E8F85F0063AC92 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8EB3306516E8F85F0063AC92 /* DataImport */,
+				8EB3307016E8F85F0063AC92 /* NSManagedObject+MagicalDataImport.h */,
+				8EB3307116E8F85F0063AC92 /* NSManagedObject+MagicalDataImport.m */,
+				8EB3307216E8F85F0063AC92 /* NSManagedObject+MagicalRecord.h */,
+				8EB3307316E8F85F0063AC92 /* NSManagedObject+MagicalRecord.m */,
+				8EB3307416E8F85F0063AC92 /* NSManagedObjectContext+MagicalRecord.h */,
+				8EB3307516E8F85F0063AC92 /* NSManagedObjectContext+MagicalRecord.m */,
+				8EB3307616E8F85F0063AC92 /* NSManagedObjectModel+MagicalRecord.h */,
+				8EB3307716E8F85F0063AC92 /* NSManagedObjectModel+MagicalRecord.m */,
+				8EB3307816E8F85F0063AC92 /* NSPersistentStore+MagicalRecord.h */,
+				8EB3307916E8F85F0063AC92 /* NSPersistentStore+MagicalRecord.m */,
+				8EB3307A16E8F85F0063AC92 /* NSPersistentStoreCoordinator+MagicalRecord.h */,
+				8EB3307B16E8F85F0063AC92 /* NSPersistentStoreCoordinator+MagicalRecord.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		8EB3306516E8F85F0063AC92 /* DataImport */ = {
+			isa = PBXGroup;
+			children = (
+				8EB3306616E8F85F0063AC92 /* NSAttributeDescription+MagicalDataImport.h */,
+				8EB3306716E8F85F0063AC92 /* NSAttributeDescription+MagicalDataImport.m */,
+				8EB3306816E8F85F0063AC92 /* NSDictionary+MagicalDataImport.h */,
+				8EB3306916E8F85F0063AC92 /* NSDictionary+MagicalDataImport.m */,
+				8EB3306A16E8F85F0063AC92 /* NSEntityDescription+MagicalDataImport.h */,
+				8EB3306B16E8F85F0063AC92 /* NSEntityDescription+MagicalDataImport.m */,
+				8EB3306C16E8F85F0063AC92 /* NSNumber+MagicalDataImport.h */,
+				8EB3306D16E8F85F0063AC92 /* NSNumber+MagicalDataImport.m */,
+				8EB3306E16E8F85F0063AC92 /* NSRelationshipDescription+MagicalDataImport.h */,
+				8EB3306F16E8F85F0063AC92 /* NSRelationshipDescription+MagicalDataImport.m */,
+			);
+			path = DataImport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +411,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = iMessageList;
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Gloria Guo";
 			};
 			buildConfigurationList = 789467A716E59D4E00E12E31 /* Build configuration list for PBXProject "iMessageListTest" */;
@@ -267,12 +424,6 @@
 			mainGroup = 789467A216E59D4E00E12E31;
 			productRefGroup = 789467AE16E59D4E00E12E31 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 789467F116E5A74700E12E31 /* Products */;
-					ProjectRef = 789467F016E5A74700E12E31 /* BlocksKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				789467AC16E59D4E00E12E31 /* iMessageListTest */,
@@ -280,54 +431,14 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		789467FE16E5A74800E12E31 /* libBlocksKit.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libBlocksKit.a;
-			remoteRef = 789467FD16E5A74800E12E31 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7894680016E5A74800E12E31 /* BlocksKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = BlocksKit.framework;
-			remoteRef = 789467FF16E5A74800E12E31 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7894680216E5A74800E12E31 /* BlocksKit.dylib */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.dylib";
-			path = BlocksKit.dylib;
-			remoteRef = 7894680116E5A74800E12E31 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7894680416E5A74800E12E31 /* BlocksKit_Chameleon.dylib */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.dylib";
-			path = BlocksKit_Chameleon.dylib;
-			remoteRef = 7894680316E5A74800E12E31 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7894680616E5A74800E12E31 /* iOS Tests.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "iOS Tests.app";
-			remoteRef = 7894680516E5A74800E12E31 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		789467AB16E59D4E00E12E31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				789467BE16E59D4E00E12E31 /* InfoPlist.strings in Resources */,
-				789467C816E59D4E00E12E31 /* Default@2x.png in Resources */,
-				789467CA16E59D4E00E12E31 /* Default-568h@2x.png in Resources */,
-				789467EA16E5A23D00E12E31 /* Default.png in Resources */,
-				7894680F16E5CCB700E12E31 /* MainWindow.xib in Resources */,
+				8EB32F9016E8DD6F0063AC92 /* MainWindow.xib in Resources */,
+				8EB3309316E8F91D0063AC92 /* iMessageList-Default.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +452,20 @@
 				789467C016E59D4E00E12E31 /* main.m in Sources */,
 				789467CD16E59D4E00E12E31 /* iMessageListTest.xcdatamodeld in Sources */,
 				789467DC16E59E5D00E12E31 /* iMessageListAppDelegate.m in Sources */,
+				8EB3308216E8F85F0063AC92 /* NSAttributeDescription+MagicalDataImport.m in Sources */,
+				8EB3308316E8F85F0063AC92 /* NSDictionary+MagicalDataImport.m in Sources */,
+				8EB3308416E8F85F0063AC92 /* NSEntityDescription+MagicalDataImport.m in Sources */,
+				8EB3308516E8F85F0063AC92 /* NSNumber+MagicalDataImport.m in Sources */,
+				8EB3308616E8F85F0063AC92 /* NSRelationshipDescription+MagicalDataImport.m in Sources */,
+				8EB3308716E8F85F0063AC92 /* NSManagedObject+MagicalDataImport.m in Sources */,
+				8EB3308816E8F85F0063AC92 /* NSManagedObject+MagicalRecord.m in Sources */,
+				8EB3308916E8F85F0063AC92 /* NSManagedObjectContext+MagicalRecord.m in Sources */,
+				8EB3308A16E8F85F0063AC92 /* NSManagedObjectModel+MagicalRecord.m in Sources */,
+				8EB3308B16E8F85F0063AC92 /* NSPersistentStore+MagicalRecord.m in Sources */,
+				8EB3308C16E8F85F0063AC92 /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */,
+				8EB3308D16E8F85F0063AC92 /* MagicalRecordHelpers.m in Sources */,
+				8EB3308E16E8F85F0063AC92 /* MRCoreDataAction.m in Sources */,
+				8EB330B616E8FC7A0063AC92 /* iMessageListConfiguration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +505,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/iMessageListTest/Class/External/BlocksKit/Headers";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -401,7 +527,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/iMessageListTest/Class/External/BlocksKit/Headers";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -413,7 +540,13 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iMessageListTest/iMessageListTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/iMessageListTest/Class/External/BlocksKit/Headers";
 				INFOPLIST_FILE = "iMessageListTest/iMessageListTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iMessageListTest/Class/External/BlocksKit\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -428,7 +561,13 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iMessageListTest/iMessageListTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/iMessageListTest/Class/External/BlocksKit/Headers";
 				INFOPLIST_FILE = "iMessageListTest/iMessageListTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iMessageListTest/Class/External/BlocksKit\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",

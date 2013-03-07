@@ -7,14 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <BlocksKit/BlocksKit.h>
 
-@interface iMessageListAppDelegate : UIResponder <UIApplicationDelegate>
+@interface iMessageListAppDelegate : NSObject
+<UIApplicationDelegate, UITabBarControllerDelegate, UINavigationControllerDelegate, UIAlertViewDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
-
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+@property (strong, nonatomic) IBOutlet UIWindow *window;
+@property (strong, nonatomic) UITabBarController *tabBarController;
+@property (nonatomic, retain) NSDate *modalDate;
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
