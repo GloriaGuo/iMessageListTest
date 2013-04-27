@@ -38,8 +38,8 @@
     [configuration.software.used setObject:[NSNumber numberWithInteger:used+1] forKey:configuration.software.version];
     [configuration save];
     
-    [MagicalRecordHelpers setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"iMessageList.sqlite"];
-    [RKManagedObjectStore setDefaultObjectStore:[RKManagedObjectStore objectStoreWithStoreFilename:@"iMessageList.sqlite"]];
+    /*[MagicalRecordHelpers setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"iMessageList.sqlite"];
+    [RKManagedObjectStore setDefaultObjectStore:[RKManagedObjectStore objectStoreWithStoreFilename:@"iMessageList.sqlite"]];*/
     //[self initDb];
     
     application.statusBarStyle = UIStatusBarStyleBlackOpaque;
@@ -78,8 +78,8 @@
 
 - (void)saveContext
 {
-    NSError *error = nil;
-    /*NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
+    /*NSError *error = nil;
+    NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
     if (managedObjectContext != nil) {
         if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
              // Replace this implementation with code to handle the error appropriately.
